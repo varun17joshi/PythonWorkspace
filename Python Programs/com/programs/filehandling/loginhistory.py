@@ -6,6 +6,7 @@ Created on Dec 10, 2017
 import datetime
 
 def create_login(fileobj):
+    """delete the text files and clear the directory"""
     password = ''
     failed=0
     while password != "varun173":
